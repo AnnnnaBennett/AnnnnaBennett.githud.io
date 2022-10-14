@@ -1,0 +1,145 @@
+/* CSS styles */
+*{
+    margin: 0;
+    padding: 0;
+
+}
+
+.header__button {
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 19px;
+    color: #838383;
+    font-family: 'Inter', sans-serif;
+    text-decoration: none;
+
+}
+.body {
+    font-family: 'Inter', sans-serif;
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.button {
+    font-family: 'Inter', sans-serif;
+    padding: 0;
+    border: none;
+    background-color: transparent;
+    cursor: pointer;
+}
+
+.contatiner {
+    width: 1200px;
+    /*width: 100%;*/
+    margin: 0 auto;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.header {
+    height: 135px;
+}
+
+.h1 {
+    font-weight: 500;
+    font-family: 'Inter', sans-serif;
+    font-size: 48px;
+    line-height: 60px;
+    color: #FFFFFF;
+}
+
+/*голове начало*/
+.header__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px 0;
+}
+
+.header__actions {
+    display: flex;
+    gap: 30px;
+}
+
+
+
+
+/*голове конец*/
+
+
+.main-row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    font-family: 'Inter', sans-serif;
+    color: #FFFFFF;
+}
+
+
+.card{
+
+    background: rgba(0, 0, 0, 0.03);
+    margin: 20px;
+    border-radius: 20px;
+    left: 360px;
+    top: 216px;
+    width: 285px;
+    height: 285px;
+}
+.card1{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    margin-top: 40px;
+    height: 235px;
+}
+.card2{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 235px;
+
+    margin-left: 290px;
+    margin-top: -235px;
+}
+.card3{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 235px;
+    margin-left: 580px;
+    margin-top: -235px;
+}
+.card4{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    height: 216px;
+    margin-left: 870px;
+    margin-top: -235px;
+}
+
+
+
+.card__title {
+    font-family: 'Inter', sans-serif;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 20px;
+    color: #838383;
+}
+
+.card__date {
+    margin-top: 12px;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 26px;
+    font-family: 'Inter', sans-serif;
+    color: #181818;
+}
+.header__logo-pic{
+    border-radius: 20px;
+}
+
