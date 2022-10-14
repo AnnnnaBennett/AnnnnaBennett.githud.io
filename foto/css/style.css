@@ -1,0 +1,225 @@
+*,*:before,*:after{
+    box-sizing: border-box;
+}
+:root{
+    --color-primary: #0B061B ;
+    --color-text: #9747FF;
+    --color-block: rgba(0, 0, 0, 0.03);
+    --color-tx: white;
+    --color-link: rgba(255, 255, 255, 0.7);
+
+}
+
+body{
+    width: 1200px;
+    margin: 0 auto;
+    background-color: var(--color-primary);
+    font-family: 'Inter', sans-serif;
+    font-size: 20px;
+}
+h1{
+    margin: 0;
+    font-weight: 500;
+    font-size: 48px;
+    line-height: 103%;
+    color: var(--color-tx);
+}
+
+
+.container{
+    width: 1200px;
+    margin:0 auto;
+}
+.btn{
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: none;
+    width: 189px;
+    height: 60px;
+    border-radius: 10px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 20px;
+    color: var(--color-tx);
+    background-color: var(--color-text);
+    border-color: var(--color-text);
+
+}
+
+.btn:hover{
+    transition: 0.2s ease;
+    color: var(--color-text);
+    background: var(--color-primary);
+    border-style: solid;
+    border-color: var(--color-text);
+
+}
+.header_wrapper{
+    height: 75px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /*margin-left: 360px;*/
+}
+.header__block{
+
+}
+.header__logo{
+    display: inline-block;
+}
+.header__logo img{
+    height: 44px;
+}
+.nav{
+    display: flex;
+
+}
+.nav__link{
+    margin-right: 30px;
+    color: var(--color-link);
+    text-decoration: none;
+    font-weight: 500;
+}
+.nav__link:last-child{
+    margin-right: 0;
+}
+.nav__link:hover{
+    transition: 0.2s ease;
+    color: rgba(131, 131, 131, 0.5);
+}
+
+
+
+.intro__content{
+    margin-top: 61px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+
+.info{
+
+}
+.card__wrapper{
+    display: flex;
+    margin: 24px -10px;
+    width: 1200px;
+
+}
+.card__block{
+    width: 33.33%;
+    padding: 0 10px;
+
+}
+.card__item{
+    /*background-color: rgba(0, 0, 0, 0.03);*/
+    /*background-color: #9747FF;*/
+    border-radius: 10px;
+    padding: 30px;
+    width: 285px;
+    height: 285px;
+    color: var(--color-tx);
+}
+.p{
+    margin: 0 0 5px;
+}
+.text{
+    /*top: 213px;*/
+    /*display: flex;*/
+    width: 285px;
+    height: 72px;
+    position: absolute;
+    margin: 213px 0 0 20px;
+    /*margin-bottom: 4px;*/
+    /*background-color: aqua;*/
+}
+.card__date{
+
+    margin-top: 4px;
+    width: 184px;
+    height: 15px;
+    left: 20px;
+    bottom: 20px;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 15px;
+    color: var(--color-link);
+}
+.card__title{
+    margin-top: 4px;
+    width: 184px;
+    height: 15px;
+    left: 20px;
+    bottom: 20px;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 15px;
+    /*font-size: 16px;*/
+    /*font-weight: 500;*/
+    color: var(--color-tx);
+}
+
+.card__button:hover{
+    transition: 0.2s ease;
+    background: rgba(0, 0, 0, 0.1);
+}
+.kard{
+    border-radius: 10px;
+    margin-top: 79px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: 600;
+    height: 60px;
+    width: 1200px;
+    border-style: solid;
+    border-color: #9747FF;
+
+
+}
+.bttn{
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 600;
+    margin-left: 14px;
+}
+.kard:hover{
+    transition: 0.2s ease;
+    background: rgba(0, 0, 0, 0.1);
+}
+
+.end{
+    height: 99px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.tx1{
+    color: var(--color-text);
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.tx1:hover{
+    transition: 0.2s ease;
+    color: rgba(166, 200, 30, 0.5);
+}
+.tx2{
+    color: white;
+    text-decoration: none;
+    font-size: 16px;
+    font-weight: 400;
+}
+.tx2:hover{
+    transition: 0.2s ease;
+    color: rgba(131, 131, 131, 0.5);
+}
+.header__logo-pic{
+    border-radius: 20px;
+}
